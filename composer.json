@@ -1,0 +1,22 @@
+{
+    "name": "refear99/easy-leancloud",
+    "description": "This package provides a easy way to access Leancloud API.",
+    "keywords": ["leancloud", "easy-leancloud", "leancloud-sdk"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan",
+            "email": "refear99@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Refear99\\EasyLeancloud\\": "src/"
+        }
+    }
+}
